@@ -3,11 +3,16 @@
   <name>ros2_arduino_bridge</name>
   <version>0.0.0</version>
   <description>ROS2 Arduino Bridge</description>
-  <maintainer email="sidd1212004@gmail.com">Siddharth</maintainer>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
   <license>Apache-2.0</license>
 
+  <!-- Build tool dependencies -->
   <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Dependencies -->
   <depend>rclpy</depend>
 
+  <!-- Executable dependencies -->
   <exec_depend>rclpy</exec_depend>
+
 </package>
