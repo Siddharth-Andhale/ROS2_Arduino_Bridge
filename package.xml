@@ -11,8 +11,4 @@
 
   <!-- Dependencies -->
   <depend>rclpy</depend>
-
-  <!-- Executable dependencies -->
-  <exec_depend>rclpy</exec_depend>
-
 </package>
