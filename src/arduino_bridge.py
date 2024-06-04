@@ -1,5 +1,6 @@
 import rclpy
 from rclpy.node import Node
+from std_msgs.msg import String
 import serial
 import time
 
@@ -7,7 +8,7 @@ class ArduinoBridge(Node):
 
     def __init__(self):
         super().__init__('arduino_bridge')
-        self.ser = serial.Serial('/dev/ttyACM1', 57600, timeout=1)
+        self.ser = serial.Serial('/dev/ttyACM0', 57600, timeout=1)
         time.sleep(2)  # Give time for Arduino to reset
 
         self.create_subscription(
